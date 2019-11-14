@@ -29,25 +29,23 @@ for (let i = 0; i <= 10; i++) {
 
 //////////////////EJERCICIO 5///////////////////
 let suma = 0;
-for (let i = 0; i <= 999; i++, suma += i) {
+for (let i = 0; i <= 1000; i++, suma += i) {
   console.log(suma); 
 }
 
 ////////////////EJERCICIO 6///////////////////////
-let sum = 0;
-for (let i = -1; i <= 999; i += 2, sum += i) {
-  console.log(sum); 
+suma = 0;
+for (let i = -1; i <= 1000; i += 2, suma += i) {
+  console.log(suma); 
 }
 
 ////////////////EJERCICIO 7///////////////////////
-let asterisco = "*";
-for (let i = 0; i <= 13; i++, asterisco ++) {
-  console.log(asterisco);
+let asterisco = "*"; 
+for (let i = 0; i <= 13; i++, asterisco++ ) {
+  console.log(asterisco + asterisco);
 }
 
 ///////////////EJERCICIO 8////////////////////////
 
 
 ////////////////EJERCICIO 9///////////////////////
-
-
