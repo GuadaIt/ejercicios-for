@@ -41,11 +41,21 @@ for (let i = -1; i <= 1000; i += 2, suma += i) {
 
 ////////////////EJERCICIO 7///////////////////////
 let asterisco = "*"; 
-for (let i = 0; i <= 13; i++, asterisco++ ) {
-  console.log(asterisco + asterisco);
+for (let i = 0; i <= 13; i++, asterisco += "*" ) {
+  console.log(asterisco);
 }
 
 ///////////////EJERCICIO 8////////////////////////
-
+asterisco = "*"; 
+for (let i = 0; i <= 7; i++, asterisco += "**" ) {
+  console.log(asterisco);
+}
 
 ////////////////EJERCICIO 9///////////////////////
+let a = 0;
+let b = 1;
+let fibonacci = a + b;
+for (let i = 0; i <= 10; i++, b += a) {
+  console.log(fibonacci)
+}
+
