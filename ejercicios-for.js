@@ -55,7 +55,10 @@ for (let i = 0; i <= 7; i++, asterisco += "**" ) {
 let a = 0;
 let b = 1;
 let fibonacci = a + b;
-for (let i = 0; i <= 10; i++, b += a) {
+for (let i = 0; i <= 10; i++) {
   console.log(fibonacci)
+  a = b;
+  b = fibonacci;
+  fibonacci = a + b;
 }
 
